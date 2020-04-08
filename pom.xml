@@ -152,6 +152,7 @@
 				<configuration>
 					<source>${java-version}</source>
 					<target>${java-version}</target>
+                                        <uberJar>true</uberJar>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -160,6 +161,7 @@
 				<version>2.4</version>
 				<configuration>
 					<warName>${project.artifactId}</warName>
+                                        <uberJar>true</uberJar>
 				</configuration>
 			</plugin>
 		        <plugin>
@@ -168,6 +170,7 @@
                                <artifactId>maven-jar-plugin</artifactId>
                                <version>3.1.0</version>
                                <configuration>
+                                 <uberJar>true</uberJar>
                                  <archive>
                                     <manifest>
                                         <addClasspath>true</addClasspath>
