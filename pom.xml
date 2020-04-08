@@ -202,7 +202,6 @@
 					<encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>
-<!--
 			<plugin>
 				<groupId>org.eclipse.jetty</groupId>
 				<artifactId>jetty-maven-plugin</artifactId>
@@ -215,7 +214,6 @@
 				    </webApp>
 			  </configuration>
 			</plugin>
--->
 		</plugins>
 	</build>
 	<name>simple-web-app</name>
